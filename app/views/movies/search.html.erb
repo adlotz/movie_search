@@ -1,0 +1,22 @@
+
+
+
+<h2> Montrer les 20 premiers films! </h2>
+<table class="table table-striped">
+      <tr>
+      	<th>Movie</th>
+      	<th>Director</th>
+        <th>Release Date</th>      	
+
+   	  </tr>
+
+  <% @movies.take(20).each do |movie| %> 
+    <tr>
+    	<td> <%= movie.title %> </td>
+    	<td> <%= movie.director %> </td>
+    	<td> <%= movie.release_date %> </td>
+        <%end%>
+    </tr>
+  </table>
+
+

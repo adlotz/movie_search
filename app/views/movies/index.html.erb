@@ -1,0 +1,16 @@
+<div class="center jumbotron" align="center" >
+
+<h1> Quel est le nom du film que vous recherchez? </h1>
+
+<%= form_with do |form| %>
+ 
+  <p>
+    <%= form.label :movie_name, "tapper le nom du film" %><br>
+    <%= form.text_field :movie_name %>
+  </p>
+ 
+  <p>
+    <%= form.submit 'rechercher!', class: "btn btn-lg btn-primary" %>
+  </p>
+<% end %>
+</div>
