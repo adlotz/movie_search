@@ -1,24 +1,5 @@
-# README
+# Ne fonctionne pas
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Malgrès de nombreuses tentatives, impossible d'exploiter l'objet de la recherche. La recherche fonctionne mais je n'arrive pas à l'afficher.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+lien pour [heroku](https://blooming-ridge-33969.herokuapp.com/) (même si cela ne représente aucun interêt!)
